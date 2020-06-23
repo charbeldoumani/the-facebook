@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+
+header{
+    width: 50%;
+    margin: 0 auto;
+}
+
+header >img{
+    width: 100%;
+}
+
+div{
+    width: 50%;
+    /* height: 420px; */
+    margin: 0 auto;
+    border: 1px solid #3D5B99;
+    height: 550px;
+}
+
+#content_left{
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    height: 130px;
+    border: 2px dashed #3D5B99;
+    margin: 1px;
+}
+
+#content_right{
+    width: 82%;
+    height: 450px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #3D5B99;
+}
+
+form >label{
+    /* float: right; */
+    font-weight: bold;
+    font-size: 13px;
+    vertical-align: bottom;
+    float: right;
+}
+
+form >input{
+    background-color: #D9DFEA;
+    width: 160px;
+    height: 25px;
+    border: 1px solid gray;
+}
+
+form >button{
+    background-color: #538ADC;
+    color: white;
+    margin-left: 15px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 60px;
+}
+
+div >h3{
+    background-color: #3B5998;
+    color: #D3EDF7;
+    height: 25px;
+    padding-top: 3px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+div >h2{
+    text-align: center;
+    padding: 30px;
+}
+
+#content_right >p{
+    padding-left: 20px;
+    font-size: 19px;
+    padding-top: 10px;
+    /* padding-bottom: 5px; */
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+ul p{
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 19px;
+}
+
+#content_right >ul li{
+    margin-left: 40px;
+    font-size: 19px;
+    padding-right: 15px;
+    list-style: none;
+}
+
+li:before{
+    content:' \2022';
+    font-size: 30px;
+    /* padding-right: 5px; */
+    margin-right: 15px;
+    line-height: 0.2;
+}
+
+#content_right button{
+    background-color: #538ADC;
+    color: white;
+    /* margin-left: 100px; */
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    margin-left: 310px;
+}
+
+#content_right button:last-child{
+    margin-left: 5px;
+}
+
+.footer_link{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer_link a{
+    text-decoration: none;
+    color: #84A7EB;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+h5{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+
